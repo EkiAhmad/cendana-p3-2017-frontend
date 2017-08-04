@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List Post</title>
+	<link rel="stylesheet" type="text/css" href="assets/style/style2.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style/normalize.css"> -->
+</head>
+<body>
+	<nav>
+		<a href="list-post.html"><img class="logo" src="assets/img/wordpress.png"></a>
+		<div class="btn-group">
+			<button class="nav-left" onclick="window.location.href='list-post.html'" />Home</button>
+			<button class="nav-left" onclick="window.location.href='new-post.html'" />Posting</button>
+			<button class="nav-left">About</button>
+			<button class="nav-left" onclick="window.location.href='index.html'" />Exit</button>
+		</div>
+	</nav>
+
+<aside>
+	
+	<form>		
+		<div class="nav-left">
+			<input type="Text" name="" placeholder="Cari artikel....">
+			<button class="cari-tambah" type="submit">Search</button>			
+		</div>
+		<div class="nav-right">
+			<input class="cari-tambah" type="button" value="Tambah Artikel" onclick="window.location.href='new-post.html'" />
+		</div>
+	</form>
+	<br>
+	<table border="1" cellspacing="0" cellpadding="5">
+		<tr>
+			<th>No.</th>
+			<th>Judul Artikel</th>
+			<th>Isi Artikel</th>
+			<th>Waktu Posting</th>
+			<th>Action</th>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td>Sejarah Tembok Besar China</td>
+			<td>Jika Anda datang ke Negeri China atau disebut juga dengan Negeri tirai bambu, tidak lengkap rasanya jika Anda tidak mengunjungi tembok china, yang merupakan tembok yang membentang sepanjang 7.000 kilometer di perbukitan China. <a href="detail-article.html">Lanjutkan membaca</a></td>
+			<td>14/07/2017 waktu 19.55</td>
+			<td>
+				<input class="edit" type="submit" value="Edit" name="">
+				<input class="hapus" type="submit" value="Hapus" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>2.</td>
+			<td>Sejarah Colosseum Italy</td>
+			<td>Colosseum, sebuah bangunan besar dan bersejarah yang terletak di
+			<u>Roma, Italia.</u>Bangunan ini di bangun pada masa <b>Kaisar Vespasian.</b>
+			<a href="detail-article2.html">Lanjutkan membaca</a>
+			</td>
+			<td>14/07/2017 waktu 19.56</td>
+			<td>
+				<input class="edit" type="submit" value="Edit" name="">
+				<input class="hapus" type="submit" value="Hapus" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>3.</td>
+			<td>Sejarh Revolusi Prancis</td>
+			<td>Memorial to King Louis XVI and Queen Marie Antoinette,
+		sculptures by Edme Gaulle and Pierre Petitot. Revolusi Perancis merupakan sebuah masa peralihan politik dan sosial dalam sejarah Perancis.
+		<a href="detail-article3.html">Lanjutkan membaca</a></td>
+		
+			<td>14/07/2017 waktu 19.57</td>
+			<td>
+				<input class="edit" type="submit" value="Edit" name="">
+				<input class="hapus" type="submit" value="Hapus" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>4.</td>
+			<td>Lorem</td>
+			<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+		<a href="#">Lanjutkan membaca</a></td>
+		
+			<td>14/07/2017 waktu 19.58</td>
+			<td>
+				<input class="edit" type="submit" value="Edit" name="">
+				<input class="hapus" type="submit" value="Hapus" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>3.</td>
+			<td>Dolor</td>
+			<td>Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<a href="#">Lanjutkan membaca</a></td>
+		
+			<td>14/07/2017 waktu 19.58</td>
+			<td>
+				<input class="edit" type="submit" value="Edit" name="">
+				<input class="hapus" type="submit" value="Hapus" name="">
+			</td>
+		</tr>
+		<tr>
+			<th colspan="5">
+				<div class="pagination">
+				  <a href="#">&laquo;</a>
+				  <a href="#" class="active">1</a>
+				  <a href="#">2</a>
+				  <a href="#">3</a>
+				  <a href="#">4</a>
+				  <a href="#">5</a>
+				  <a href="#">6</a>
+				  <a href="#">&raquo;</a>
+				</div>
+			</th>
+		</tr>
+	</table>
+</aside>
+</body>
+</html>
