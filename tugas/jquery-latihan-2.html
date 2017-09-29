@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JV</title>
+<!-- 	offline -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+<!-- online -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style type="text/css">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: pink;
+    color: black;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(215,222,240);
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: rgb(35,114,167);
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+  	<a href="javascript:void(0)" class="dropbtn">News</a>
+    <div class="dropdown-content">
+      <a href="#">Tech</a>
+      <a href="#">Business</a>
+      <a href="#">Entertaiment</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>	
+
+<!-- 	<nav>
+		
+	<ul>
+		<li><a href="#">home</a></li>
+		<li class="dropdown">
+			<a href="#">content</a>
+				<a href="#">content 1</a>
+				<a href="#">content 2</a>
+				<a href="#">content 3</a>
+		</li>
+		<li><a href="#">about</a>
+			<a href="#">about 1</a>
+			<a href="#">about 2</a>
+		</li>
+		<li><a href="#">contact</a>
+			<a href="#">contact 1</a>
+			<a href="#">contact 2</a>
+			<a href="#">contact 3</a>
+		</li>
+	</ul>
+
+	</nav> -->
+
+	<script type="text/javascript">
+	// $("ul li").hover(function(){
+	// 		$("ul li").css("color","black");
+	// 		$("ul li").css("font-size","10px");
+	// 		$(this).css("font-size","20px");
+	// 		$(this).css("color","pink");
+	// 	});
+
+	
+
+	// $('nav li ul').hide().removeClass('fallback');
+	// $('nav li').hover(
+ //  	function () {
+ //    $('ul', this).stop().slideDown(100);
+ //  	},
+ //  	function () {
+ //    $('ul', this).stop().slideUp(100);
+ //  	}
+	// );	
+
+	</script>
+</body>
+</html>
